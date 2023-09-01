@@ -1,0 +1,84 @@
+<!-- Input Component w/o DM
+
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+
+export default function SelectComponent(props) {
+  const { onChange, value, label, options } = props;
+
+  return (
+    <Box sx={{ minWidth: 120 }}>
+      <FormControl>
+        <InputLabel id="demo-simple-select-label">{label}</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={value}
+          label={label}
+          onChange={onChange}
+        >
+          {options.map((x, i) => (
+            <MenuItem key={i} value={x.value}>
+              {x.label}
+            </MenuItem>
+          ))}
+        </Select>
+      </FormControl>
+    </Box>
+  );
+} -->
+
+<!-- Select Component w/o DM -->
+<!-- import * as React from 'react';
+import Box from '@mui/material/Box';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+
+export default function SelectComponent(props) {
+  const { onChange, value, label, options } = props;
+
+  return (
+    <Box sx={{ minWidth: 120 }}>
+      <FormControl>
+        <InputLabel id="demo-simple-select-label">{label}</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={value}
+          label={label}
+          onChange={onChange}
+        >
+          {options.map((x, i) => (
+            <MenuItem key={i} value={x.value}>
+              {x.label}
+            </MenuItem>
+          ))}
+        </Select>
+      </FormControl>
+    </Box>
+  );
+} -->
+
+<!-- Table w/o DM -->
+
+<!-- import React from 'react';
+import { DataGrid } from '@mui/x-data-grid';
+
+const TableComponent = (props) => {
+  const { columns, rows } = props;
+
+  return (
+    <div style={{ height: 400, width: '100%' }}>
+      <DataGrid rows={rows} columns={columns} />
+    </div>
+  );
+};
+
+export default TableComponent; -->
+

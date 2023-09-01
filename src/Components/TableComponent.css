@@ -1,0 +1,48 @@
+/* TableComponent.css */
+.table-container {
+    height: 400px;
+    width: 100%;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-text {
+    color: white;
+}
+
+.light-text {
+    color: black;
+}
+
+/* Add styles for header text color in dark mode */
+.dark-header {
+    color: white;
+}
+
+.light-header {
+    color: black;
+}
+
+/* Add styles for header cell text color in dark mode */
+.dark-header-cell {
+    color: white;
+}
+
+.light-header-cell {
+    color: black;
+}
+.active-text {
+    color: green;
+  }
+  
+  .inactive-text {
+    color: red;
+  }

@@ -1,0 +1,41 @@
+
+.container {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 900px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.light-mode {
+  background-color: white !important;
+  color: black !important;
+}
+
+.dark-mode {
+  background-color: black ;
+  color: white;
+  
+}
+@media (prefers-color-scheme: dark) {
+  
+  .dark-mode .input-dark .MuiOutlinedInput-root {
+    color: white;
+   background-color: rgb(72, 69, 69);
+   border-color: white 1px solid;
+   
+  }
+  .dark-mode .input-dark .MuiInputLabel-root {
+    color: white;
+  }
+}
